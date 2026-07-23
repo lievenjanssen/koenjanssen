@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder image - replace with a photo of Koen Janssen">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141d31"/>
+      <stop offset="1" stop-color="#0a1020"/>
+    </linearGradient>
+    <radialGradient id="lglow" cx="38%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#35e0cf" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#4aa8ff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#35e0cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#lbg)"/>
+  <rect width="1200" height="800" fill="url(#lglow)"/>
+  <g fill="none" stroke="#5eeadb" stroke-opacity="0.7" stroke-width="9" stroke-linecap="round">
+    <circle cx="600" cy="330" r="96"/>
+    <path d="M462 560 a138 138 0 0 1 276 0"/>
+  </g>
+  <g font-family="'Space Grotesk','Segoe UI',sans-serif" text-anchor="middle">
+    <text x="600" y="662" font-size="30" letter-spacing="4" fill="#e7eef4">REPLACE WITH A PHOTO</text>
+    <text x="600" y="702" font-size="21" letter-spacing="2" fill="#8fa3b4">of Koen Janssen (landscape 3:2)</text>
+  </g>
+</svg>
