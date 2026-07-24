@@ -404,16 +404,19 @@ strong { font-weight: 600; color: var(--white); }
   align-items: center;
   justify-content: center;
 }
-.marquee__logos span {
+.marquee__logos span,
+.marquee__logos a {
   font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--muted);
   opacity: 0.75;
+  text-decoration: none;
   transition: opacity 0.3s var(--ease), color 0.3s var(--ease);
 }
-.marquee__logos span:hover { opacity: 1; color: var(--white); }
+.marquee__logos span:hover,
+.marquee__logos a:hover { opacity: 1; color: var(--white); }
 
 /* Embeds (facade) --------------------------------------------------------- */
 .embed { position: relative; }
