@@ -449,15 +449,16 @@ strong { font-weight: 600; color: var(--white); }
 .about { padding: clamp(70px, 10vw, 130px) 0; }
 .about__grid {
   display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
+  grid-template-columns: 1fr 1.15fr;
   gap: clamp(32px, 5vw, 72px);
   align-items: center;
 }
 .about__photo { position: relative; }
 .about__photo img {
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: left center;
   border-radius: var(--radius);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -481,35 +482,9 @@ strong { font-weight: 600; color: var(--white); }
   margin: 0 0 22px;
 }
 
-.about__stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 22px 52px;
-  margin-top: 36px;
-  padding-top: 32px;
-  border-top: 1px solid var(--line);
-}
-.about__stat { display: flex; flex-direction: column; }
-.about__stat-num {
-  font-family: var(--font-display);
-  font-size: clamp(1.7rem, 2.4vw, 2rem);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--white);
-}
-.about__stat-label {
-  margin-top: 9px;
-  font-size: 0.7rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--muted-dim);
-  font-weight: 500;
-}
-
 @media (max-width: 860px) {
   .about__grid { grid-template-columns: 1fr; gap: 36px; }
-  .about__photo img { aspect-ratio: 16 / 9; }
+  .about__photo img { aspect-ratio: 1 / 1; }
 }
 
 /* Music / discography ----------------------------------------------------- */
